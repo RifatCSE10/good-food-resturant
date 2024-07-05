@@ -161,6 +161,10 @@
   margin-bottom: 44px;
 }
 
+/* <=================================>
+    section three start form header
+   <=================================> */
+
 .food {
   height: 532px;
   display: flex;
@@ -230,26 +234,33 @@
   margin-bottom: 22px;
 }
 
-.food .text_wraper .text_container .icon-container{
+.food .text_wraper .text_container .icon-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 22px;
 }
 
-.food .text_wraper .text_container .icon-container .icon{
+.food .text_wraper .text_container .icon-container .icon {
   height: 9px;
   width: 21px;
 }
 
-.food .text_wraper .text_container .icon-container .icon img{
+.food .text_wraper .text_container .icon-container .icon img {
   width: 100%;
 }
 
+/* <=================================>
+    section two start form header
+   <=================================> */
 
-.footer{
+.footer {
   height: 462px;
-  background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('./asset/img/image 1.png');
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("./asset/img/image 1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -259,14 +270,13 @@
   margin-top: 30px;
 }
 
-.footer .text_container
-{
+.footer .text_container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.footer .text_container h1{
+.footer .text_container h1 {
   color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 33px;
@@ -276,7 +286,6 @@
   text-align: center;
   margin-bottom: 16px;
 }
-
 
 .footer .text_container p {
   color: rgb(16, 16, 16);
@@ -289,7 +298,6 @@
   opacity: 0.6;
   margin-bottom: 33px;
 }
-
 
 .footer .text_container #special_p {
   box-sizing: border-box;
@@ -311,21 +319,18 @@
   justify-content: center;
 }
 
-
-.footer .text_container .icon-container{
+.footer .text_container .icon-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 22px;
 }
 
-
-.footer .text_container .icon-container .icon{
+.footer .text_container .icon-container .icon {
   height: 9px;
   width: 21px;
 }
 
-
-.footer .text_container .icon-container .icon img{
+.footer .text_container .icon-container .icon img {
   width: 100%;
 }
